@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mdiv" align="center">
+        <div class="lgnfrm" align="center">
+            <form autocomplete="off">
+                <h2 class="head">LOGIN</h2>
+                <input type="text" name="Username" placeholder="Username" class="ipl" id="usr">
+                <input type="password" name="pwd" placeholder="Password" style="margin-bottom: 10px;"class="ipl" id="pass" >
+                <span><a href="#">Forget Password ?</a></span>
+                <input type="button" name="lgn" value="LOGIN" onclick="validate()">
+                <span><a href="#">Create Account</a></span>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script type="text/JAVASCRIPT">
+    let usr1="something";
+    let pass1="something123";
+    function validate(){
+        let usr2 =document.getElementById("usr").value;
+        let pass2 = document.getElementById("pass").value;
+        if((usr1=usr2)&&(pass1=pass2))
+        {
+           window.open('login.html')
+        }
+        else{
+            alert("wrong credintials")
+        }
+        }
+    
+</script>
+</html>

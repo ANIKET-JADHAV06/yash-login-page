@@ -1,0 +1,48 @@
+        .mdiv {
+            height: 100vh;
+            width: 100%;
+            background-image: url(https://cdn.wallpapersafari.com/16/65/FjdTtm.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+
+        .lgnfrm {
+            width: 200px;
+            height: 200px;
+            margin: 15% 35%;
+        }
+
+        input {
+            width: 95%;
+            margin-top: 10px;
+            height: 20px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid white;
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        input[type="button"] {
+            border: none;
+            border-radius: 10px;
+            background-color: white;
+            height: 30px;
+            color: black;
+        }
+
+        input[type="button"]:hover {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            transform: scale(1.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: beige;
+        }
